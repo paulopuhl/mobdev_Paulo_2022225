@@ -1,0 +1,7 @@
+{
+  "name": "HomePage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

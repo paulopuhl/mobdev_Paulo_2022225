@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      CA1 Paulo Puhl - 2022225
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="backdrop2">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Paulo_Puhl_Homepage</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Home Page</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-button expand="full" (click)=updateMyValue()>Click me!</ion-button> 
+        {{myVariable}}
+    </ion-card-content>
+    <ion-button (click)="navigateToPage2()">Go to Page 2</ion-button>
+  </ion-card>
+
+  <div id="container">
+    <strong>Gremio Page</strong>
+    <p>I support this soccer team in Brazil: <a target="_blank" rel="noopener noreferrer" href="https://gremio.net/">GREMIO FBPA</a></p>
+  </div>
+  </div>
+</ion-content>
